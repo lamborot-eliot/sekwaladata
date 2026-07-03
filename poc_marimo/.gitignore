@@ -1,0 +1,15 @@
+wasm_export
+__pycache__/
+*.pyc
+__marimo__
+.Python
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Ss]cripts
+pyvenv.cfg
+.venv
+.python-version
+pip-selfcheck.json
