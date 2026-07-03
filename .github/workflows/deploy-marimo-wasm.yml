@@ -34,7 +34,7 @@ jobs:
       - name: Export notebook to WASM
         working-directory: poc_marimo
         run: |
-          uv run marimo export html-wasm tuto_intro.py -o wasm_export/index.html --mode run
+          uv run marimo export html-wasm materaliazed_view.py -o wasm_export/index.html --mode run
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
