@@ -13,3 +13,4 @@ pyvenv.cfg
 .venv
 .python-version
 pip-selfcheck.json
+*.parquet
